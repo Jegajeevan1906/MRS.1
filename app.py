@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Public Google Sheet CSV link
-sheet_url = "https://docs.google.com/spreadsheets/d/1HIEGFg0UEOGebNTPY2XURYChdajFXD-0iCEonwfNGdg/edit?usp=sharing"
+sheet_url = "https://docs.google.com/spreadsheets/d/1HIEGFg0UEOGebNTPY2XURYChdajFXD-0iCEonwfNGdg/export?format=csv"
 df = pd.read_csv(sheet_url)
 
 # Sort & show
